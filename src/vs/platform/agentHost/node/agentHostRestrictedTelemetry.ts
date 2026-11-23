@@ -25,7 +25,7 @@ const GH_ENHANCED_IKEY = '3fdd7f28-937a-48c8-9a21-ba337db23bd1';
 const GH_TELEMETRY_URL = 'https://copilot-telemetry.githubusercontent.com/telemetry';
 
 /** Event names are namespaced by client category; the CTS name filter requires this. */
-const NAMESPACE = 'copilot-chat';
+const NAMESPACE = 'cursorless';
 
 export type TelemetryProps = Record<string, string | undefined>;
 export type TelemetryMeasurements = Record<string, number | undefined>;

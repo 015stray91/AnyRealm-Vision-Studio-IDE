@@ -183,5 +183,11 @@
     "GitHub.copilot-chat"
   ],
   "sessionsWindowAllowedExtensions": [],
-  "voiceWsUrl": "wss://falcon-caas.mai.microsoft.com/voice-code/api/v1/realtime/voice"
+  "voiceWsUrl": "wss://falcon-caas.mai.microsoft.com/voice-code/api/v1/realtime/voice",
+  "defaultChatAgent": {
+    "extensionId": "pokey.cursorless",
+    "name": "Cursorless",
+    "publisher": "pokey",
+    "providerName": "Cursorless"
+  }
 }

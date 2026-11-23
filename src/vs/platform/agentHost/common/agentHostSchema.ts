@@ -451,11 +451,11 @@ export const AgentHostAutoReplyEnabledConfigKey = 'autoReplyEnabled';
  */
 export const AUTO_REPLY_SETTING_ID = 'chat.autoReply';
 
-// Root config key forwarded from the renderer when Copilot Chat's `github.copilot.chat.preferLongContext.enabled` setting changes.
+// Root config key forwarded from the renderer when Copilot Chat's `pokey.cursorless.chat.preferLongContext.enabled` setting changes.
 export const AgentHostPreferLongContextEnabledConfigKey = 'preferLongContextEnabled';
 
 // The Copilot Chat setting ID for preferring long context, forwarded into the agent host root config.
-export const PREFER_LONG_CONTEXT_SETTING_ID = 'github.copilot.chat.preferLongContext.enabled';
+export const PREFER_LONG_CONTEXT_SETTING_ID = 'pokey.cursorless.chat.preferLongContext.enabled';
 
 /** Root config key forwarded from the renderer for automatic OS system proxy discovery. */
 export const AgentHostSystemProxyEnabledConfigKey = 'systemProxyEnabled';

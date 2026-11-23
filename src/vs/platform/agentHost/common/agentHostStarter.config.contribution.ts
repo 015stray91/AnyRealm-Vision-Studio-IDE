@@ -98,7 +98,7 @@ configurationRegistry.registerConfiguration({
 			default: true,
 			tags: ['experimental', 'advanced'],
 			// Owns the `Claude3PIntegration` policy; gating here disables Claude across all surfaces.
-			// The user-facing copilot-chat setting `github.copilot.chat.claudeAgent.enabled` attaches
+			// The user-facing cursorless setting `pokey.cursorless.chat.claudeAgent.enabled` attaches
 			// to this policy via a `policyReference` declared in the distro `product.json`. Ownership
 			// lives here (not in `product.json`) so the policy can carry a `value` callback that honors
 			// the account-side editor preview-features flag.
@@ -172,7 +172,7 @@ configurationRegistry.registerConfiguration({
 			default: false,
 			scope: ConfigurationScope.APPLICATION,
 			tags: ['experimental', 'advanced'],
-			// Owns `CopilotOtelEnabled`; the copilot-chat setting `github.copilot.chat.otel.enabled`
+			// Owns `CopilotOtelEnabled`; the cursorless setting `pokey.cursorless.chat.otel.enabled`
 			// attaches to it via a `policyReference` in the extension's package.json.
 			policy: {
 				name: 'CopilotOtelEnabled',
